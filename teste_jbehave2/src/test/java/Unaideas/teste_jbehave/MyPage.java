@@ -7,21 +7,21 @@ import br.gov.frameworkdemoiselle.behave.runner.ui.Button;
 import br.gov.frameworkdemoiselle.behave.runner.ui.TextField;
 
 
-@ScreenMap(name = "cadastro de usuario", location = "http://localhost:8080/unaideasphp/cadastro_investidor.php")
+@ScreenMap(name = "cadastro de professor", location = "http://localhost:8080/unaideasphp/cadastro_professor.php")
 public class MyPage {
 
 	
-	@ElementMap(name = "nome usuario", locatorType = ElementLocatorType.Id, locator = "nome_investidor")
+	@ElementMap(name = "nome usuario", locatorType = ElementLocatorType.Id, locator = "nome_professor")
 	private TextField nome_investidor;
 	
-	@ElementMap(name = "RG", locatorType = ElementLocatorType.Id, locator = "rg")
-	private TextField rg;
+	@ElementMap(name = "matricula", locatorType = ElementLocatorType.Id, locator = "mat_professor")
+	private TextField mat_professor;
 	
-	@ElementMap(name = "E-mail", locatorType = ElementLocatorType.Id, locator = "email")
-	private TextField email;
+	@ElementMap(name = "E-mail", locatorType = ElementLocatorType.Id, locator = "email_professor")
+	private TextField email_professor;
 	
-	@ElementMap(name = "Telefone", locatorType = ElementLocatorType.Id, locator = "tel")
-	private TextField tel;
+	@ElementMap(name = "Telefone", locatorType = ElementLocatorType.Id, locator = "telefone_professor")
+	private TextField telefone_professor;
 	
 
 	@ElementMap(name = "Login", locatorType = ElementLocatorType.Id, locator = "user_name")
