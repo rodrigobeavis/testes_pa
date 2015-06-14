@@ -1,0 +1,91 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br"><head>
+        <title>UNAIDEAS</title>
+        <meta charset="UTF-8" />
+        <link rel="shortcut icon" href="./assets/img/icon/favicon.ico" />
+<link rel="icon" type="image/gif" href="./assets/img/icon/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="./assets/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="./assets/js/alertify.js/themes/alertify.core.css" />
+<link rel="stylesheet" type="text/css" href="./assets/js/alertify.js/themes/alertify.default.css" />
+<link href="./assets/fontes/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+        <link href="./assets/css/estilo.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body class="container">
+    <legend class="well well-sm">Usuário</legend>
+    <form id="cadastro_gravar_user" method="POST" action="" class="">
+        <div class="row form-group">
+            <div class="col-md-5">
+                <input id="nome_usuario" name="nome_usuario" placeholder="Nome" required="" maxlength="60" class="form-control" type="text" />
+            </div>
+            <div class="col-md-3">
+                <input id="rg" name="rg" placeholder="RG" class="form-control" required="" maxlength="12" type="text" />
+            </div>
+            <div class="col-md-3">
+                <input id="ra" name="ra" placeholder="RA" class="form-control" maxlength="12" type="text" />
+            </div>
+        </div>
+        <div class="row form-group">
+            <div class="col-md-5">
+                <input id="email" name="email" type="text" placeholder="Email" class="form-control" maxlength="120" required="" />
+            </div>
+            <div class="col-md-3">
+                <input id="tel" name="tel" placeholder="Telefone" class="form-control" required="" maxlength="12" type="text" />
+            </div>
+            <div class="col-md-3">
+                <select id="turma" name="turma" class="form-control" required="">
+                    <option disabled="" selected="">Turma...</option>
+                                            <option value="1">ADS3AN</option>
+                                            <option value="7">ADS2BN</option>
+                                            <option value="8">ADS2AN</option>
+                                            <option value="9">ADS1BN</option>
+                                            <option value="10">ADS1AN</option>
+                                    </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row form-group">
+                    <div class="col-md-8">
+                        <input id="user_name" name="user_name" placeholder="Login" maxlength="18" class="form-control" required="" type="text" />
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-md-8">
+                        <input id="keyu" name="keyu" placeholder="Senha" maxlength="15" class="form-control" required="" type="password" />
+                    </div>
+                    <div class="col-md-4">
+                        <meter value="19.0056" id="mtSenha" max="35">Força da senha</meter>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-md-8">
+                        <input id="keyu2" placeholder="Confirme a senha" maxlength="15" class="form-control" required="" type="password" />
+                    </div>
+                    <div class="col-md-4">
+                        <h4><label id="erro_senha" class="label btn-danger" style="display: none;">As senhas não conferem</label></h4>
+                        <input id="tipo" name="tipo" value="1" type="hidden" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <div class="control-group">
+        <label class="control-label" for="button1id"></label>
+        <div class="controls">
+
+            <button id="button1id" class="btn btn-success">cadastrar</button> <!-- data-dismiss="modal" data-toggle="modal" data-target="#login" -->
+            <button id="cancelar" type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+        </div>
+    </div>
+
+    
+<script src="./assets/js/jquery-2.1.3.min.js"></script>
+<script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="./assets/js/alertify.js/lib/alertify.min.js"></script>
+
+    <script src="./assets/js/complexifyjs/jquery.complexify.min.js"></script>
+    <script src="./assets/js/maskedinput/jquery.maskedinput.min.js"></script>
+    <script src="./system/funcoes/js/f_cadastros.js"></script>
+    
+
+</body></html>

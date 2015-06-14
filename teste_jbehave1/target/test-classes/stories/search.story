@@ -23,4 +23,4 @@ Quando informo "rodrigo.pedroza" no campo "Login"
 Quando informo "rodrigo" no campo "Senha"
 Quando informo "rodrigo" no campo "Confirme a senha"
 
-Então será exibido "https://github.com/demoiselle/behave"
+Quando clico em "Cancelar"

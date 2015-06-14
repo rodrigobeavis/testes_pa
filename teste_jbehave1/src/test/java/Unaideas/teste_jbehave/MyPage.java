@@ -38,7 +38,7 @@ public class MyPage {
 	@ElementMap(name = "Confirme a senha", locatorType = ElementLocatorType.Id, locator = "keyu2")
 	private TextField keyu2;
 	
-	@ElementMap(name = "Estou com sorte", locatorType = ElementLocatorType.Name, locator = "btnI")
-	private Button buttonLuckSearch;
+	@ElementMap(name = "Cancelar", locatorType = ElementLocatorType.Id, locator = "cancelar")
+	private Button cancelar;
 
 }
